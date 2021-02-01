@@ -4,9 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import Button from './Button';
+import Card from './Card';
+// import Characters from './Characters'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
