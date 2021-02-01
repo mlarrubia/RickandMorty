@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 import './Cards.css';
 
-import Img from './Img'
 import Characters from './Characters';
 
 import axios from 'axios';

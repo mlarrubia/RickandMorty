@@ -13,9 +13,9 @@ function Characters() {
     React.useEffect(() => {
         axios.get(`https://rickandmortyapi.com/api/character`)
             .then(res => {
-                // const newPosts = res.data.data.children
-                //   .map(obj => obj.data);
+
                 console.log(res.data);
+
                 const array = res.data.results.map((morty) => {
                     let name = morty.name;
                     let image = morty.image;
@@ -26,9 +26,6 @@ function Characters() {
 
                 setCharacters(array)
             }, []);
-        // console.log(characters);
-
-
     })
 
     return (
